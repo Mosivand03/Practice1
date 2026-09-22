@@ -168,3 +168,14 @@ Console.ForegroundColor=ConsoleColor.Black;
 Console.WriteLine("");
 await Task.Delay(90);
 Console.Clear();
+Console.BackgroundColor=ConsoleColor.Black;
+Console.ForegroundColor=ConsoleColor.Green;
+Console.WriteLine("Salam dostan");
+await Task.Delay(2500);
+Console.Clear();
+Console.WriteLine("Haleton chetore?");
+await Task.Delay(2500);
+Console.Clear();
+Console.ForegroundColor=ConsoleColor.Yellow;
+Console.WriteLine(@"Omidvaram ke
+shad va salamat bashid.");
