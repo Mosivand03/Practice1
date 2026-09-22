@@ -1,4 +1,6 @@
-﻿Console.Clear();
+﻿using System.Runtime.ConstrainedExecution;
+
+Console.Clear();
 Console.Beep(2000,100);
 Console.Beep(3000,100);
 Console.Beep(4000,100);
@@ -179,3 +181,44 @@ Console.Clear();
 Console.ForegroundColor=ConsoleColor.Yellow;
 Console.WriteLine(@"Omidvaram ke
 shad va salamat bashid.");
+await Task.Delay(5500);
+Console.Clear();
+Console.ForegroundColor=ConsoleColor.Blue;
+Console.WriteLine(@"KHob!
+ghrareh ke man
+khodam ro be shoma
+moarefi bokonam.");
+await Task.Delay(10000);
+Console.Clear();
+Console.WriteLine(@"latfan baraie edameh
+az 1 ta 9
+adade mored alagheton ro vared konid ");
+Console.ReadKey(true);
+Console.Clear();
+Console.ForegroundColor=ConsoleColor.Red;
+Console.WriteLine(@"Man ke nadonestam
+che adadi ro vared kardid!!
+vali khob edameh midam.");
+await Task.Delay(10000);
+Console.Clear();
+Console.ForegroundColor=ConsoleColor.Blue;
+Console.WriteLine(@"Adade mored alagheh man
+adade shishe ");
+await Task.Delay(5000);
+Console.ForegroundColor=ConsoleColor.Red;
+Console.WriteLine(@"Daghighan
+nemidonam chera?!!");
+await Task.Delay(3000);
+Console.ForegroundColor=ConsoleColor.Green;
+Console.WriteLine(@"Shaiad be khatere inekeh
+adade shansameh");
+await Task.Delay(6000);
+Console.ForegroundColor=ConsoleColor.Yellow;
+Console.WriteLine(@"Ia be khatere inkeh
+shishomin roz hafteh ro dost daram ");
+await Task.Delay(8000);
+Console.ForegroundColor=ConsoleColor.Blue;
+Console.WriteLine(@"Shaiad ha be khater inekeh
+to shishomin mah sal be donia oomadam!");
+await Task.Delay(10000);
+Console.Clear();
