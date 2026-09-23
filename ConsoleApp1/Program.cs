@@ -218,7 +218,43 @@ Console.WriteLine(@"Ia be khatere inkeh
 shishomin roz hafteh ro dost daram ");
 await Task.Delay(8000);
 Console.ForegroundColor=ConsoleColor.Blue;
-Console.WriteLine(@"Shaiad ha be khater inekeh
+Console.WriteLine(@"Shaiad ham be khater inekeh
 to shishomin mah sal be donia oomadam!");
 await Task.Delay(10000);
 Console.Clear();
+Console.BackgroundColor=ConsoleColor.Red;
+Console.ForegroundColor=ConsoleColor.Black;
+Console.WriteLine(@"Dar kol
+adame kam harfi hastam ");
+await Task.Delay(4000);
+Console.Clear();
+Console.BackgroundColor=ConsoleColor.Green;
+Console.ForegroundColor=ConsoleColor.Black;
+Console.WriteLine(@"Amma khob...");
+await Task.Delay(2000);
+Console.Clear();
+Console.BackgroundColor=ConsoleColor.Black;
+Console.ForegroundColor=ConsoleColor.Yellow;
+Console.WriteLine("Man mohammad hastam");
+await Task.Delay(2000);
+Console.WriteLine("23 salameh");
+await Task.Delay(2000);
+Console.WriteLine(@"Dar hamedan be donia oomadam
+va dar hamedan zendegi mikonal");
+await Task.Delay(7000);
+Console.Clear();
+Console.BackgroundColor=ConsoleColor.Blue;
+Console.ForegroundColor=ConsoleColor.Black;
+Console.WriteLine(@"Reshteh tahsilie man
+dar dabirestan tajrobi bod");
+await Task.Delay(5000);
+Console.WriteLine(@"Va dar hale hazer daneshjoe
+reshteh computer hastam ");
+await Task.Delay(5000);
+Console.WriteLine(@"Va inkeh geraiesham
+tarahi va toseeh narmafzare. Omidvaram
+ke betonam in masir ro edame bedam.");
+await Task.Delay(10000);
+Console.Clear();
+
+
